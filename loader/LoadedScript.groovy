@@ -3,9 +3,9 @@ import org.apache.commons.lang.StringUtils
 
 class MyLoadedClass {
 
-    def run(){
+    def run(str){
         println "MyLoadedClass.run() with import use from jar"
-        println StringUtils.trim("  rgrg  ")
+        return StringUtils.trim(str)
     }
 }
 

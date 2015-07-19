@@ -10,7 +10,7 @@ class MyGse {
 
         Class clazz = gse.loadScriptByName("LoadedScript.groovy");
         def o =  clazz.newInstance()
-        o.run()
+        println o.run("    sdkjhbzsfbhf    ")
     }
 }
 
